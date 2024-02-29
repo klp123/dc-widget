@@ -943,7 +943,15 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-
+<!-- Start of Dash.Chat Livechat Script -->
+<script type="text/javascript">
+	(function(w, d, s, u) {
+		w.DashChat = function(c) { w.DashChat._.push(c) }; w.DashChat._ = []; w.RocketChat.url = u;
+		var h = d.getElementsByTagName(s)[0], j = d.createElement(s);
+		j.async = true; j.src = 'https://chat-rel-dev-dash.relatient.com/livechat/dashchat-livechat.min.js?_=201903270000';
+		h.parentNode.insertBefore(j, h);
+	})(window, document, 'script', 'https://chat-rel-dev-dash.relatient.com/livechat');
+	</script>
 </body>
 
 </html>
